@@ -1,0 +1,16 @@
+{
+ "framework": "04_NIST_AI_RMF",
+ "title": "NIST AI Risk Management Framework (GOVERN/MAP/MEASURE/MANAGE)",
+ "project": "JSFEAT",
+ "basis": [
+  {
+   "check": "09_nist_ai_rmf",
+   "status": "PASS",
+   "observed": "{\"authority\": \"NIST AI RMF\", \"control_ids\": [\"GOVERN-1.1\", \""
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "d82b7c66f4b034f7f558d14a3747a081593bf2bd65977d384ee8f3644caead78",
+ "register_sha3": "6e97f30aee728e0645c9846efbd2d7f3f3c340b4141d99e47abe951057555c33"
+}

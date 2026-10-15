@@ -1,0 +1,342 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "JSFEAT",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARTIST_TOOLS\\JSFEAT\\UPSTREAM_CLONE",
+    "git": {
+      "head": "70c8a59c71913934b854f15f6f16eadd6c72db77",
+      "url": "https://github.com/antimatter15/jsfeat",
+      "branch": "master",
+      "committed_at": "2012-12-12T17:32:22+04:00"
+    }
+  },
+  "metrics": {
+    "files_total": 28,
+    "source_files_scanned": 23,
+    "lines_of_code": 4556,
+    "languages": {
+      ".js": 23,
+      "(none)": 1,
+      ".json": 1,
+      ".md": 1,
+      ".xml": 1,
+      ".jar": 1
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 0,
+    "unique": 0,
+    "by_ecosystem": {},
+    "list": []
+  },
+  "owasp_top10": {
+    "total_findings": 23,
+    "files_with_findings": 22,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 23
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 0,
+        "findings": []
+      },
+      "A04-InsecureDesign": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "src/jsfeat_imgproc.js",
+            "line": 361,
+            "cwe": "CWE-",
+            "snippet": "// TODO: add support for RGB/BGR order"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 22,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "src/jsfeat.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_bbf.js",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_cache.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_export.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_fast_corners.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_haar.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_imgproc.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_linalg.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_math.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_mat_math.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_optical_flow_lk.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_struct.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_transform.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_yape.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "src/jsfeat_yape06.js",
+            "line": 2,
+            "cwe": "CWE-319",
+            "snippet": "* @author Eugene Zatepyakin / http://inspirit.ru/"
+          },
+          {
+            "severity": "low",
+            "file": "cascades/eye.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "* @author Martin Tschirsich / http://www.tu-darmstadt.de/~m_t"
+          },
+          {
+            "severity": "low",
+            "file": "cascades/frontalface.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "* @author Martin Tschirsich / http://www.tu-darmstadt.de/~m_t"
+          },
+          {
+            "severity": "low",
+            "file": "cascades/handfist.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "* @author Martin Tschirsich / http://www.tu-darmstadt.de/~m_t"
+          },
+          {
+            "severity": "low",
+            "file": "cascades/handopen.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "* @author Martin Tschirsich / http://www.tu-darmstadt.de/~m_t"
+          },
+          {
+            "severity": "low",
+            "file": "cascades/mouth.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "* @author Martin Tschirsich / http://www.tu-darmstadt.de/~m_t"
+          },
+          {
+            "severity": "low",
+            "file": "cascades/profileface.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "* @author Martin Tschirsich / http://www.tu-darmstadt.de/~m_t"
+          },
+          {
+            "severity": "low",
+            "file": "cascades/upperbody.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "* @author Martin Tschirsich / http://www.tu-darmstadt.de/~m_t"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:d20147ea-f012-51c9-a36f-5d1836a21e48",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T07:34:08Z",
+      "component": {
+        "type": "application",
+        "name": "JSFEAT",
+        "version": "70c8a59c7191",
+        "bom-ref": "pkg:generic/anticloud/JSFEAT@70c8a59c7191",
+        "purl": "pkg:generic/anticloud/JSFEAT@70c8a59c7191",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "70c8a59c71913934b854f15f6f16eadd6c72db77"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/antimatter15/jsfeat"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": []
+  },
+  "elapsed_seconds": 3.0
+}
